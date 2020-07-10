@@ -1,0 +1,249 @@
+@charset "ISO-8859-1";
+#videot .nav-link.active {
+    color: white;
+    background-color:hotpink
+}
+
+#videot .nav-link {
+    color: whitesmoke;
+    background-color: lightpink;
+    width: 200px;
+    padding: 14px;
+}
+
+#galleria img {height:120px;
+    box-shadow: 8px 8px 8px grey;
+    margin:5px;}
+#galleria {text-align:center;  /* keskitt‰‰ kuvat */
+    margin-bottom: 300px;}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+    min-height: 300px;
+    max-height: 500px;
+    box-shadow: 8px 8px 8px grey;
+
+}
+
+.carousel-control-prev-icon {
+    background-image:
+        url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(92, 69, 35)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image:
+        url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(92, 69, 35)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+.card-header {
+    background-color: rgba(215, 151, 177, 0.9) !important;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.card img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 240px;
+    height: 70%;
+}
+
+.card-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#accordion .card img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 240px;
+    height: 100%;
+}
+#accordion .card-link {
+    color:aliceblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h3 {
+    font-family: 'Brawler', serif;
+    align: center;
+}
+
+#videot {
+    max-width: 800px;
+    width: 100%;
+}
+
+#palaute label {
+    display: inline-block;
+    color: rgb(92, 69, 35);
+}
+
+#palaute input[type="checkbox"] {
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    width: 30px;
+}
+
+fieldset {border: 1px dotted rgba(137,17,76,0.9);
+    padding: 10px;
+    width:100%;
+    max-width: 25em;
+    margin-bottom:20px;
+    margin:auto;}
+
+#palaute input, textarea {
+    width: 100%;
+    padding: 12px 20px; margin : 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+
+
+
+#palaute input[type="submit"] {
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
+#palaute {
+    padding-top: 90px;
+    text-align: left;
+}
+
+
+#palaute fieldset {border: 1px dotted rgba(137,17,76,0.9);
+    padding: 10px;
+    width:100%;
+    max-width: 25em;
+    margin-bottom:20px;
+    margin:auto;
+    background-color: #CACACA;}
+
+.teddy img {
+    width:300px; 
+    height:200px;
+}
+
+.teddy img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+footer {
+    text-align: center;
+    font-family: 'Brawler', serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+}
+
+#tiedot {
+    background-color: mistyrose;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#kilpailu {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#form {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Brawler', serif;
+
+}
+
+#counter {
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    background-color: oldlace;
+}
+
+#form input  {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#form input:focus {
+    border: 3px solid #555;
+}
+
+#form select:focus {
+    border: 3px solid #555;
+}
+
+
+#form select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#form button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+
